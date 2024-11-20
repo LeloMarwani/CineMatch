@@ -1,0 +1,76 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "testuser",
+        "email": "test@example.com",
+        "password": "hashedpassword",
+        "favorites": [
+          {
+            "id": 101,
+            "title": "Inception",
+            "genre": "Sci-Fi"
+          },
+          {
+            "id": 102,
+            "title": "The Matrix",
+            "genre": "Action"
+          }
+        ],
+        "lists": [
+          {
+            "id": 201,
+            "name": "Sci-Fi Favorites",
+            "movies": [
+              {
+                "id": 101,
+                "title": "Inception",
+                "genre": "Sci-Fi"
+              },
+              {
+                "id": 102,
+                "title": "The Matrix",
+                "genre": "Action"
+              }
+            ]
+          },
+          {
+            "id": 202,
+            "name": "Comedy Classics",
+            "movies": [
+              {
+                "id": 103,
+                "title": "Superbad",
+                "genre": "Comedy"
+              },
+              {
+                "id": 104,
+                "title": "Step Brothers",
+                "genre": "Comedy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "searchHistory": [
+      {
+        "id": 301,
+        "userId": 1,
+        "query": "Inception",
+        "results": [
+          {
+            "id": 101,
+            "title": "Inception",
+            "genre": "Sci-Fi"
+          },
+          {
+            "id": 105,
+            "title": "Interstellar",
+            "genre": "Sci-Fi"
+          }
+        ],
+        "createdAt": "2024-11-19T12:00:00Z"
+      }
+    ]
+   }
